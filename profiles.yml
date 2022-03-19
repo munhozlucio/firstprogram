@@ -1,0 +1,16 @@
+KN:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: yf05153.north-europe.azure
+
+      # User/password auth
+      user: munhozlu
+      password: Luflamu@1988
+
+
+      database: KN
+      warehouse: COMPUTE_WH
+      schema: DBT_MUNHOZLUCIO
+      client_session_keep_alive: True

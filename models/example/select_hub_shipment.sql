@@ -1,0 +1,1 @@
+create table h_shipment as select SHIPMENT_ID, LAST_UPDATE from shipment
